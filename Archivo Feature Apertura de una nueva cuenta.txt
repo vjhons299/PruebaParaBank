@@ -1,0 +1,37 @@
+Archivo Feature: Apertura de una nueva cuenta en Parabank
+Nombre de la característica: Apertura de una nueva cuenta
+
+Descripción: Esta característica permite a los usuarios abrir una nueva cuenta de ahorros en la plataforma Parabank.
+
+Flujo de usuario:
+
+El usuario inicia sesión en la plataforma Parabank.
+El usuario hace clic en el botón "Open New Account".
+El usuario selecciona el tipo de cuenta "SAVINGS".
+El usuario selecciona el ID de la cuenta existente desde la que se transferirá el saldo inicial.
+El usuario hace clic en el botón "Open Account".
+Si la información ingresada es válida, el usuario recibe un mensaje de éxito y la nueva cuenta se crea.
+Si la información ingresada es inválida, el usuario recibe un mensaje de error.
+Requisitos:
+
+El sistema debe permitir al usuario seleccionar el tipo de cuenta que desea abrir.
+El sistema debe permitir al usuario seleccionar la cuenta existente desde la que se transferirá el saldo inicial.
+El sistema debe validar que el ID de la cuenta existente sea válido.
+El sistema debe proporcionar un mensaje de éxito al usuario una vez que la nueva cuenta se ha creado correctamente.
+El sistema debe proporcionar un mensaje de error al usuario si se encuentra algún problema durante el proceso de apertura de la cuenta.
+Detalles técnicos:
+
+La selección del tipo de cuenta se implementa utilizando un menú desplegable (select).
+La selección del ID de la cuenta existente se implementa utilizando un menú desplegable (select).
+La validación de la información se realiza utilizando JavaScript.
+La base de datos almacena la información de la nueva cuenta creada.
+Casos de prueba:
+
+Caso de prueba 1: Apertura exitosa de una nueva cuenta con información válida.
+Caso de prueba 2: Apertura fallida de una nueva cuenta con información inválida (por ejemplo, ID de cuenta existente inválido).
+Caso de prueba 3: Apertura fallida de una nueva cuenta con información incompleta (por ejemplo, tipo de cuenta no seleccionado).
+Notas:
+
+Este archivo Feature se puede utilizar para documentar la funcionalidad de apertura de una nueva cuenta en la plataforma Parabank.
+Se puede utilizar como base para crear casos de prueba automatizados.
+El archivo Feature se puede actualizar con más detalles y requisitos a medida que se desarrolla la característica.

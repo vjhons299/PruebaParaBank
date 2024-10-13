@@ -1,0 +1,40 @@
+rchivo Feature: Transferencia de fondos en Parabank
+Nombre de la característica: Transferencia de fondos
+
+Descripción: Esta característica permite a los usuarios transferir fondos entre sus propias cuentas en la plataforma Parabank.
+
+Flujo de usuario:
+
+El usuario inicia sesión en la plataforma Parabank.
+El usuario hace clic en el botón "Transfer Funds".
+El usuario ingresa la cantidad de dinero que desea transferir.
+El usuario selecciona la cuenta de origen (fromAccountId) desde la que se transferirá el dinero.
+El usuario selecciona la cuenta de destino (toAccountId) a la que se transferirá el dinero.
+El usuario hace clic en el botón "Transfer".
+Si la información ingresada es válida, el usuario recibe un mensaje de éxito y la transferencia se realiza.
+Si la información ingresada es inválida, el usuario recibe un mensaje de error.
+Requisitos:
+
+El sistema debe permitir al usuario ingresar la cantidad de dinero que desea transferir.
+El sistema debe permitir al usuario seleccionar la cuenta de origen y la cuenta de destino.
+El sistema debe validar que la cantidad de dinero sea válida (por ejemplo, no negativa).
+El sistema debe validar que las cuentas de origen y destino sean válidas.
+El sistema debe validar que la cuenta de origen tenga suficiente saldo para realizar la transferencia.
+El sistema debe proporcionar un mensaje de éxito al usuario una vez que la transferencia se ha realizado correctamente.
+El sistema debe proporcionar un mensaje de error al usuario si se encuentra algún problema durante el proceso de transferencia.
+Detalles técnicos:
+
+La entrada de la cantidad de dinero se implementa utilizando un campo de texto (input).
+La selección de la cuenta de origen y la cuenta de destino se implementa utilizando menús desplegables (select).
+La validación de la información se realiza utilizando JavaScript.
+La base de datos almacena la información de las cuentas y las transacciones.
+Casos de prueba:
+
+Caso de prueba 1: Transferencia exitosa de fondos con información válida.
+Caso de prueba 2: Transferencia fallida de fondos con información inválida (por ejemplo, cantidad de dinero negativa, cuenta de origen o destino inválida, saldo insuficiente).
+Caso de prueba 3: Transferencia fallida de fondos con información incompleta (por ejemplo, cantidad de dinero no ingresada, cuenta de origen o destino no seleccionada).
+Notas:
+
+Este archivo Feature se puede utilizar para documentar la funcionalidad de transferencia de fondos en la plataforma Parabank.
+Se puede utilizar como base para crear casos de prueba automatizados.
+El archivo Feature se puede actualizar con más detalles y requisitos a medida que se desarrolla la característica.

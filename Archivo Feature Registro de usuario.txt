@@ -1,0 +1,47 @@
+Archivo Feature: Registro de usuario en Parabank
+Nombre de la característica: Registro de usuario
+
+Descripción: Esta característica permite a los usuarios registrarse en la plataforma Parabank para acceder a sus servicios financieros.
+
+Flujo de usuario:
+
+El usuario accede a la página web de Parabank.
+El usuario hace clic en el botón "Register".
+El usuario completa el formulario de registro con su información personal:
+Nombre
+Apellido
+Dirección
+Ciudad
+Estado
+Código postal
+Número de teléfono
+Número de seguridad social
+Nombre de usuario
+Contraseña
+Confirmación de contraseña
+El usuario hace clic en el botón "Register".
+Si la información ingresada es válida, el usuario recibe un mensaje de éxito y se registra en la plataforma.
+Si la información ingresada es inválida, el usuario recibe un mensaje de error.
+Requisitos:
+
+El formulario de registro debe ser fácil de completar y comprender.
+Los campos del formulario deben ser obligatorios y tener una validación adecuada.
+El sistema debe validar que la contraseña y la confirmación de contraseña sean iguales.
+El sistema debe verificar que el nombre de usuario no esté ya en uso.
+El sistema debe proporcionar un mensaje de éxito al usuario una vez que se ha registrado correctamente.
+El sistema debe proporcionar un mensaje de error al usuario si se encuentra algún problema durante el proceso de registro.
+Detalles técnicos:
+
+El formulario de registro se implementa utilizando HTML y CSS.
+La validación del formulario se realiza utilizando JavaScript.
+La base de datos almacena la información del usuario registrado.
+Casos de prueba:
+
+Caso de prueba 1: Registro exitoso con información válida.
+Caso de prueba 2: Registro fallido con información inválida (por ejemplo, nombre de usuario ya existente, contraseña incorrecta).
+Caso de prueba 3: Registro fallido con información incompleta (por ejemplo, campos obligatorios sin rellenar).
+Notas:
+
+Este archivo Feature se puede utilizar para documentar la funcionalidad de registro de usuario en la plataforma Parabank.
+Se puede utilizar como base para crear casos de prueba automatizados.
+El archivo Feature se puede actualizar con más detalles y requisitos a medida que se desarrolla la característica.
