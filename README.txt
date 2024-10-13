@@ -14,3 +14,6 @@ python nombre_del_script.py ejemplo: python Registro correcto.py
 - El script abrirá un navegador y realizará los pasos ingresados según el script seleccionado
 - Asegúrate de tener una conexión a Internet estable para que el WebDriver pueda interactuar con la página web.
 - Si encuentras algún problema durante la ejecución, revisa los mensajes de error en la consola para identificar posibles fallos.
+
+Video automatización corriendo:
+https://drive.google.com/drive/folders/1SrNqG3udvD70MlP6bZpu1tzrNXuEWk_C?usp=sharing
