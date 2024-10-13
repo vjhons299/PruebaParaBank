@@ -1,5 +1,5 @@
 Instrucciones para Ejecutar Automatización con Selenium y Python
-Este repositorio contiene un script de Python que automatiza algunos procesos de la página web https://test-qa.inlaze.com  tanto para el login como para el registro de usuarios utilizando Selenium.
+Este repositorio contiene un script de Python que automatiza algunos procesos de la página web https://parabank.parasoft.com/ 
 
 Requisitos Previos:
 - Python instalado en tu computadora. Puedes descargar Python desde python.org
